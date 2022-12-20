@@ -136,7 +136,7 @@ body {
 
 header {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .left {
@@ -144,9 +144,26 @@ header {
     padding: 1rem;
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+}
+
+span {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.target {
+    display: flex;
+    align-items: center;
 
 }
 
+links, a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
 
 .right {
     display: flex;
@@ -166,14 +183,17 @@ h1 {
 
 h2 {
     color: #fff;
-    font-size: 2.5rem;
-    margin-bottom: 5rem;
+    font-size: 3rem;
+    margin-bottom: 3rem;
 
 }
 
 p {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.25rem;
+    margin-bottom: 4rem;
+    font-style: italic;
+
 }
 
 .profile {
@@ -183,3 +203,41 @@ p {
     max-height: 250px;
 }
 
+
+
+.projects {
+    /* margin-top: 1rem; */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.who {
+    /* margin-top: 1rem; */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contact {
+    /* margin-top: 1rem; */
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.button > a {
+    text-decoration: none;
+}
+
+.back-to-top {
+        position: fixed;
+        bottom: 10px;
+        float: right;
+        left: 85%;
+        max-width: 80px;
+        width: 100%;
+        border-color: transparent;
+        background-color: rgba(0, 0, 0, 0.338);
+        border-radius: 4px;
+}
