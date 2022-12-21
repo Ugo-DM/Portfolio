@@ -158,7 +158,7 @@ span {
 
 }
 
-links, a {
+.links-to {
     color: #fff;
     text-decoration: none;
     font-size: 2rem;
@@ -183,12 +183,12 @@ h1 {
 
 h2 {
     color: #fff;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 3rem;
 
 }
 
-p {
+.intro {
     color: #fff;
     font-size: 1.25rem;
     margin-bottom: 4rem;
@@ -203,8 +203,6 @@ p {
     max-height: 250px;
 }
 
-
-
 .projects {
     /* margin-top: 1rem; */
     display: flex;
@@ -215,29 +213,64 @@ p {
 .who {
     /* margin-top: 1rem; */
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: 100vh;
+}
+
+.who>p {
+    color: #fff;
+    font-size: 1rem;
+    padding: 1.5rem;
 }
 
 .contact {
     /* margin-top: 1rem; */
-    display: flex;
-    justify-content: center;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-span {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.contact>h2 {
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-line {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.contact-line > a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .button > a {
     text-decoration: none;
+    color: #fff;
 }
 
 .back-to-top {
-        position: fixed;
-        bottom: 10px;
-        float: right;
-        left: 85%;
-        max-width: 80px;
-        width: 100%;
-        border-color: transparent;
-        background-color: rgba(0, 0, 0, 0.338);
-        border-radius: 4px;
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    left: 85%;
+    max-width: 80px;
+    width: 100%;
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, 0.338);
+    border-radius: 4px;
 }
