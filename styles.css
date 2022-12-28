@@ -132,12 +132,14 @@ table {
 body {
     background-image: url("image.jpg");
     background-size: cover;
+    max-width: 100vw;
 }
 
 header {
     display: flex;
     flex-wrap: wrap;
     margin-top: 1rem;
+    max-width: 100vw;
 }
 
 .left {
@@ -180,7 +182,7 @@ h1 {
     color: #fff;
     font-size: 6rem;
     margin-bottom: 1rem;
-    min-width: 100vw;
+    min-width: 90%;
     padding-left: 1rem;
 }
 
@@ -212,6 +214,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+    max-width: 100vw;
+    margin-right: 1rem;
 }
 
 .projects>h2 {
@@ -248,7 +252,18 @@ h2 {
     padding: 1rem;
     padding-left: 2.5rem;
     margin-left: -2rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+.website-link {
+    color: #fff;
+    text-transform: lowercase;
+}
+
+.fa-solid, .fas {
+    text-transform: lowercase;
+    font-size: 0.5rem;
 }
 
 .who {
