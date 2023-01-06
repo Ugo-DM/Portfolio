@@ -285,13 +285,13 @@ h2 {
 
 .who-container {
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.15rem;
     display: flex;
     flex-direction: column;
 }
 
 .who-container>p {
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .contact {
