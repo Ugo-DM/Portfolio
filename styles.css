@@ -227,6 +227,11 @@ h2 {
     flex-direction: column;
 }
 
+.projects-container h3 {
+    text-align: center;
+    color: #fff;
+}
+
 .project {
     display: flex;
     align-items: center;
