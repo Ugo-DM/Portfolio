@@ -172,6 +172,7 @@ span {
     padding: 1.5rem;
 }
 
+
 .right {
     display: flex;
     justify-content: center;
@@ -431,7 +432,7 @@ h2 {
 }
 
 .back-to-top {
-    font-size: 2rem;
+    font-size: 3rem;
     position: fixed;
     bottom: 10px;
     float: right;
@@ -439,6 +440,6 @@ h2 {
     max-width: 80px;
     width: 100%;
     border-color: transparent;
-    background-color: rgba(0, 0, 0, 0.338);
+    background-color: rgba(0, 0, 0, 0);
     border-radius: 4px;
 }
